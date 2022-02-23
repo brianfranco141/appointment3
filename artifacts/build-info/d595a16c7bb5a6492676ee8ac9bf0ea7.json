@@ -1,0 +1,110 @@
+{
+  "id": "d595a16c7bb5a6492676ee8ac9bf0ea7",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.8.4",
+  "solcLongVersion": "0.8.4+commit.c7e474f2",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/appointment3.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract appointment3 {\r\n\r\n}\r\n\r\n"
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": false,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "contracts/appointment3.sol": {
+        "appointment3": {
+          "abi": [],
+          "evm": {
+            "bytecode": {
+              "generatedSources": [],
+              "linkReferences": {},
+              "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b1aaa3f3a05c095b4758b49a70ceaf400e0430d3837057f759c5885bcb4e2b2764736f6c63430008040033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB1 0xAA LOG3 RETURN LOG0 0x5C MULMOD JUMPDEST SELFBALANCE PC 0xB4 SWAP11 PUSH17 0xCEAF400E0430D3837057F759C5885BCB4E 0x2B 0x27 PUSH5 0x736F6C6343 STOP ADDMOD DIV STOP CALLER ",
+              "sourceMap": "60:28:0:-:0;;;;;;;;;;;;;;;;;;;"
+            },
+            "deployedBytecode": {
+              "generatedSources": [],
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "6080604052600080fdfea2646970667358221220b1aaa3f3a05c095b4758b49a70ceaf400e0430d3837057f759c5885bcb4e2b2764736f6c63430008040033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB1 0xAA LOG3 RETURN LOG0 0x5C MULMOD JUMPDEST SELFBALANCE PC 0xB4 SWAP11 PUSH17 0xCEAF400E0430D3837057F759C5885BCB4E 0x2B 0x27 PUSH5 0x736F6C6343 STOP ADDMOD DIV STOP CALLER ",
+              "sourceMap": "60:28:0:-:0;;;;;"
+            },
+            "methodIdentifiers": {}
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/appointment3.sol\":\"appointment3\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/appointment3.sol\":{\"keccak256\":\"0xd6e05009b19818ad3b4fa1ceda696501883b17913d20130c8c053f0849f7f2b7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://63698fdda56cf828cb606a647472e481b498a04fc50a22d2c21f7f5b1bd21f0b\",\"dweb:/ipfs/QmWbdGkk2dLHXgzrS7FBmTHBjSvwqfXCync9hMCZWDr5Bc\"]}},\"version\":1}"
+        }
+      }
+    },
+    "sources": {
+      "contracts/appointment3.sol": {
+        "ast": {
+          "absolutePath": "contracts/appointment3.sol",
+          "exportedSymbols": {
+            "appointment3": [
+              2
+            ]
+          },
+          "id": 3,
+          "license": "MIT",
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                "^",
+                "0.8",
+                ".0"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "33:23:0"
+            },
+            {
+              "abstract": false,
+              "baseContracts": [],
+              "contractDependencies": [],
+              "contractKind": "contract",
+              "fullyImplemented": true,
+              "id": 2,
+              "linearizedBaseContracts": [
+                2
+              ],
+              "name": "appointment3",
+              "nameLocation": "69:12:0",
+              "nodeType": "ContractDefinition",
+              "nodes": [],
+              "scope": 3,
+              "src": "60:28:0",
+              "usedErrors": []
+            }
+          ],
+          "src": "33:59:0"
+        },
+        "id": 0
+      }
+    }
+  }
+}

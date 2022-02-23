@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "appointment3",
+  "sourceName": "contracts/appointment3.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b1aaa3f3a05c095b4758b49a70ceaf400e0430d3837057f759c5885bcb4e2b2764736f6c63430008040033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b1aaa3f3a05c095b4758b49a70ceaf400e0430d3837057f759c5885bcb4e2b2764736f6c63430008040033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

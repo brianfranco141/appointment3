@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\brian\\Desktop\\cs\\web 3 projects\\appointment3\\contracts\\appointment3.sol": {
+      "lastModificationDate": 1645597265294,
+      "contentHash": "915dc9f37507e1cdfa6b439adeb1324f",
+      "sourceName": "contracts/appointment3.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "appointment3"
+      ]
+    }
+  }
+}
