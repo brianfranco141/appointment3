@@ -14,7 +14,8 @@ contract appointment3 {
     }
     
     function setRate(uint _rate) public {
-        rate = _rate;
-    }
+        require(msg.sender == owner, "Only the owner can set the rate");
+        rate = _rate;    }
+
 }
 
